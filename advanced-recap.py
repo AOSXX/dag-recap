@@ -7,7 +7,7 @@ def complex_taskflow():
 
     @task()
     def extract():
-        return {'data': 44}
+        return {'data': 45}
 
     @task()
     def transform(order_data_dict: dict):
